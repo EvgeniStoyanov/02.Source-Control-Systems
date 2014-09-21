@@ -12,9 +12,9 @@ class SortingNumbers
 
         int[] sequence = new int[numbers];
 
-        for (int i = 0; i < numbers; i++)
+        for (int a = 0; a < numbers; a++)
         {
-            sequence[i] = int.Parse(Console.ReadLine());
+            sequence[a] = int.Parse(Console.ReadLine());
         }
 
         Array.Sort(sequence);
