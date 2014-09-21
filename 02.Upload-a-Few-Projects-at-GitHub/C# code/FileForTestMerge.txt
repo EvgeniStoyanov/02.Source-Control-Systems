@@ -1,1 +1,1 @@
-Contents before
+Contents before and after merge.
