@@ -9,12 +9,16 @@ using System;
         static void Main()
         {
             int fiboNumber = 6;
-
+			
+			//print result
             Console.WriteLine(Fib(fiboNumber));
         }
         static uint Fib(int limit)
         {
             uint[] fibo = { 0, 1, 1 };
+			//first element = 0
+			//second element = 1
+			//third element = 1
 
             uint result = 0;
 
